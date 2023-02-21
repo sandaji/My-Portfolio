@@ -1,9 +1,9 @@
 ## Personal Portfolio
 
-### [Live Site](https://ijamyvincent.web.app)
+### [Live Site](https://ijamyvincent.vercel.app)
 
-![Portfolio Website](https://i.ibb.co/WgPMpts/image.png)
+![Portfolio Website](/public/images/home.jpeg)
 
 
 
-## Launch your development career with project-based coaching - https://www.ijamyvincent.web.app
+## Launch your development career with project-based coaching - https://www.ijamyvincent.vercel.app
