@@ -1,5 +1,5 @@
 import React from "react";
-
+import {FiCornerRightDown} from 'react-icons/fi'
 import { Section, SectionText, SectionTitle } from "../styles/GlobalComponents";
 import Button from "../styles/GlobalComponents/Button";
 import { LeftSection } from "../styles/HeroStyles";
@@ -8,13 +8,13 @@ const Hero = (props) => (
   <>
     <Section row nopadding>
       <LeftSection>
-        <SectionTitle main center>
-          Welcome To <br />
-          My Personal Portfolio
+        <SectionTitle main center >
+         <small>Hello there,</small> <br />
+          I`M a MERN Stack <br /> and PhP Developer
         </SectionTitle>
         <SectionText>
-          The purpose of this portfolio is to showcase my compitense in the field of computer science and my level of knowlege in mahematics.
-          below are some of my recent projects
+          I`M a junior full stack web developer with 5 years experiance in php and 2 years experiance in MERN stack.
+          Below are some of my recent projects<FiCornerRightDown />
         </SectionText>
         <Button onClick={props.handleClick}>Contact Me</Button>
       </LeftSection>

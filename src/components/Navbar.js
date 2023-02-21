@@ -34,11 +34,16 @@ const Header = () => (
       >
         <Image src={Logo} alt="Logo" size="3rem" />{" "}
         <span style={{ fontWeight: "700", fontSize: "2rem" }}>
-          <LogoName>IJAMY {"    "}VINCENT</LogoName>
+          <LogoName>IJAMY VINCENT</LogoName>
         </span>
       </Link>
     </Div1>
     <Div2 style={{ gap: "2rem" }}>
+    <li>
+        <Link href="#about">
+          <NavLink>About</NavLink>
+        </Link>
+      </li>
       <li>
         <Link href="#projects">
           <NavLink>Projects</NavLink>
@@ -49,17 +54,13 @@ const Header = () => (
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
-      <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
-        </Link>
-      </li>
+
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/sandaji">
         <IoLogoGithub />
       </SocialIcons>
-      <SocialIcons href="https://google.com">
+      <SocialIcons href="https://www.linkedin.com/in/ijamy-vincent-72858b107/">
         <IoLogoLinkedin />
       </SocialIcons>
       <SocialIcons href="https://twitter.com/@_ijamy">

@@ -3,7 +3,7 @@ import { BiCopyright } from "react-icons/bi";
 import {
   IoLogoWhatsapp,
   IoLogoGithub,
-  IoLogoInstagram,
+  IoLogoTwitter,
   IoLogoLinkedin,
 } from "react-icons/io";
 import { SocialIcons } from "../styles/HeaderStyles";
@@ -46,12 +46,12 @@ const Footer = (props) => {
           <SocialIcons href="https://google.com/sandaji">
             <IoLogoGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://www.linkedin.com/in/ijamy-vincent-72858b107/">
             <IoLogoLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
-            <IoLogoInstagram size="3rem" />
-          </SocialIcons>
+          <SocialIcons href="https://twitter.com/@_ijamy">
+        <IoLogoTwitter  />
+      </SocialIcons>
           <SocialIcons href="https://wa.link/s08fo7">
             <IoLogoWhatsapp size="3rem" />
           </SocialIcons>
