@@ -20,7 +20,7 @@ export const projects = [
   {
     title: 'Library Feedback Management System',
     description: "This is a code repository for a mini library feedback system",
-      image: '/images/6.jpg',
+      image: '/images/6.jpeg',
       tags: ['React', 'MongoDB','Nodejs','express'],
     source: 'https://google.com',
     visit: 'https://google.com',
