@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Library Feedback Management System',
     description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called LFMS and it is a simple app that allows library users to get the best out of the library.",
-      image: '/images/1.png',
+      image: '/images/6.jpeg',
       tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://github.com/sandaji/lfms',
     visit: 'https://google.com',
