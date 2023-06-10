@@ -13,7 +13,7 @@ const Hero = (props) => (
           I`M a MERN Stack <br /> and PhP Developer
         </SectionTitle>
         <SectionText>
-          I`M a junior full stack web developer with 5 years experiance in php and 2 years experiance in MERN stack.
+          I`M a full stack web developer with 5 years experiance in php and 2 years experiance in MERN stack.
           Below are some of my recent projects<FiCornerRightDown />
         </SectionText>
         <Button onClick={props.handleClick}>Contact Me</Button>
