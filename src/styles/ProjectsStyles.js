@@ -108,8 +108,8 @@ export const TagList = styled.ul`
   border-radius: 15px;
 `;
 export const Tag = styled.li`
-  color: #d8bfbf;
-  background: linear-gradient(121.57deg, #5ce1e6 20.77%,#fff 37%, #9926f0 70.15%);
+  color: #fff;
+  background: #5ce1e6;
   border-radius: 15px;
   padding: 1rem 2rem;
   font-size: 1.5rem;
