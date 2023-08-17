@@ -18,10 +18,10 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'Library Feedback Management System',
-    description: "This is a code repository for a mini library feedback system",
+    title: 'MacsInter Kenya LTD',
+    description: "This is a product page for macsinter ltd. A macadamia trading company located in Thika",
       image: '/images/6.jpeg',
-      tags: ['React', 'MongoDB','Nodejs','express'],
+      tags: ['React', 'MongoDB','Nodejs','Flask'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 2,
