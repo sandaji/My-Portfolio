@@ -9,7 +9,7 @@ const Technologies = () =>  (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      From Back-end, Front-end To Design
     </SectionText>
     <List>
       <ListItem>
@@ -32,7 +32,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with 
-            Node,<br /> Php and Databases
+            Node,<br /> Flask and Databases
           </ListParagraph>
         </ListContainer>
       </ListItem>

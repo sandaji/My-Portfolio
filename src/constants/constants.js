@@ -43,4 +43,5 @@ export const TimeLineData = [
   { year: 2019, text: 'Founded Tecknologia Inc', },
   { year: 2020, text: 'Shared my projects with the world', },
   { year: 2022, text: 'did my first Full Stack Ecommerce application', },
+  { year: 2023, text: 'Graduated from college', },
 ];
