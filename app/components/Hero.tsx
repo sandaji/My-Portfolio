@@ -30,7 +30,7 @@ const Hero = ({ handleClick }: HeroProps) => {
           className="max-w-[800px] text-[24px] font-light leading-[40px] text-white/70 pb-14 sm:text-[16px] sm:leading-[24px]"
         >
         As a full-stack developer specializing in MERN & PHP, I utilize a broad skillset <b className="text-cyan-400 text-2xl font-semibold">(Flutter, Python, Databases and Nextjs)
-          </b>  to build performant and scalable applications. Let's discuss your project.
+          </b>  to build performant and scalable applications. Let&apos;s discuss your project.
           <FiCornerRightDown className="inline-block ml-2" />
         </motion.p>
         <button
