@@ -29,9 +29,7 @@ const Hero = ({ handleClick }: HeroProps) => {
           transition={{ duration: 0.7, delay: 0.3 }}
           className="max-w-[800px] text-[24px] font-light leading-[40px] text-white/70 pb-14 sm:text-[16px] sm:leading-[24px]"
         >
-          I’M a full stack web developer with 5 years experience in PHP and 2
-          years experience in the MERN stack. Below are some of my recent
-          projects{" "}
+          I’M a Versatile full-stack developer experienced with PHP, MERN, Dart/Flutter, Python, R, and databases (SQL, PostgreSQL, MongoDB). Explore my projects:
           <FiCornerRightDown className="inline-block ml-2" />
         </motion.p>
         <button
