@@ -50,10 +50,9 @@ const Timeline = () => {
       </h2>
 
       <p className="max-w-[800px] text-lg text-white/75 mb-8">
-        I&apos;m a <strong className="text-white">Mathematics And Computer Science</strong> graduate with a lot of passion
-        in web development. I have taught myself numerous stacks that are very
-        competitive in the market.
+        As a <strong className="text-white">Mathematics and Computer Science</strong> graduate, I've channeled my analytical skills into a passion for web development. Through self-directed learning, I've gained expertise in various contemporary technology stacks essential for building effective web solutions.
       </p>
+
 
       {/* Scrollable Carousel */}
       <div

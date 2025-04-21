@@ -10,7 +10,7 @@ export const projects = [
     },
     {
       title: 'Pharmacy Management System',
-      description:"Thia was among my final year PROJECTS THAT I DEVELOPED WHILE IN COLLEGE. It is a pharmacy management system that allows users to manage their pharmacy operations efficiently.",
+      description:"This was among my final year project that I developed while in university. It is a pharmacy management system that allows users to manage their pharmacy operations efficiently.",
       image: '/5.jpeg',
       tags: ['Php', 'JavaScript','MySql','Sass'],
       source: 'https://github.com/sandaji/rozlyne',
