@@ -8,11 +8,8 @@ import {
   IoLogoLinkedin,
 } from "react-icons/io";
 
-type FooterProps = {
-  handleClick?: () => void;
-};
 
-const Footer = ({ handleClick }: FooterProps) => {
+const Footer = () => {
   return (
     <footer className="max-w-[1040px] mx-auto px-12 py-10 sm:px-4">
 

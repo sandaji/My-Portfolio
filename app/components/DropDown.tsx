@@ -26,9 +26,7 @@ const DropDown = ({ isOpen }: DropDownProps) => {
         </div>
         <div>
           <h2 className="text-base font-semibold text-gray-900">Phone</h2>
-          <p className="text-sm text-gray-600">
-            Let's get together and have a chat?
-          </p>
+          <p className="text-sm text-gray-600">Let&apos;s get together and have a chat?</p>
         </div>
       </a>
 
@@ -44,9 +42,7 @@ const DropDown = ({ isOpen }: DropDownProps) => {
         </div>
         <div>
           <h2 className="text-base font-semibold text-gray-900">Email</h2>
-          <p className="text-sm text-gray-600">
-            If you want to talk, just send a message and I'll get back.
-          </p>
+          <p className="text-sm text-gray-600">If you want to talk, just send a message and I&apos;ll get back.</p>
         </div>
       </a>
 

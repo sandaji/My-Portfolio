@@ -50,7 +50,7 @@ const Timeline = () => {
       </h2>
 
       <p className="max-w-[800px] text-lg text-white/75 mb-8">
-        I'm a <strong className="text-white">Mathematics And Computer Science</strong> graduate with a lot of passion
+        I&apos;m a <strong className="text-white">Mathematics And Computer Science</strong> graduate with a lot of passion
         in web development. I have taught myself numerous stacks that are very
         competitive in the market.
       </p>

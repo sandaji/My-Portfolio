@@ -10,7 +10,7 @@ export const projects = [
     },
     {
       title: 'Pharmacy Management System',
-      description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+      description:"Thia was among my final year PROJECTS THAT I DEVELOPED WHILE IN COLLEGE. It is a pharmacy management system that allows users to manage their pharmacy operations efficiently.",
       image: '/5.jpeg',
       tags: ['Php', 'JavaScript','MySql','Sass'],
       source: 'https://github.com/sandaji/rozlyne',
@@ -27,10 +27,10 @@ export const projects = [
       id: 2,
     },
     {
-      title: 'Unichat',
-      description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-      image: '/4.jpg',
-      tags: ['React', 'ChatEngine', 'Firebase'],
+      title: 'BOMS',
+      description: "Business management system is a system developed with a primary goal of managing inventory within a business enterprise",
+      image: '/boms.png',
+      tags: ['nextjs 15', 'SQlite','Tailwind', 'next-theme', 'typescript', 'prisma'],
       source: 'https://google.com',
       visit: 'https://google.com',
       id: 3,
@@ -44,4 +44,6 @@ export const projects = [
     { year: 2020, text: 'Shared my projects with the world', },
     { year: 2022, text: 'did my first Full Stack Ecommerce application', },
     { year: 2023, text: 'Graduated from college', },
+    { year: 2024, text: 'Joined Powerlearn Africa to learn Software Engineering', },
+    { year: 2025, text: 'Graduated from Powerlearn Africa', },
   ];

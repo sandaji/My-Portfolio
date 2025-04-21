@@ -8,9 +8,7 @@ import {
   IoLogoTwitter,
   IoLogoWhatsapp,
 } from "react-icons/io";
-import { DiCssdeck } from "react-icons/di";
 import DropDown from "./DropDown";
-import Logo from "ijamy.svg"; // adjust this import if needed
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

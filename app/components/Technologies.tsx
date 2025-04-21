@@ -13,7 +13,7 @@ const Technologies = () => (
 
     {/* Section Text */}
     <p className="max-w-[800px] text-lg text-white/75 mb-8">
-      I've worked with a range of technologies in the web development world —
+      I&apos;ve worked with a range of technologies in the web development world —
       from Back-end, Front-end to Design.
     </p>
 
