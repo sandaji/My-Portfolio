@@ -10,7 +10,7 @@ type HeroProps = {
 
 const Hero = ({ handleClick }: HeroProps) => {
   return (
-    <section className="flex flex-col md:flex-row justify-between items-center w-full max-w-[1040px] mx-auto px-6 -mt-6 relative">
+    <section className="flex flex-col md:flex-row justify-between items-center w-full max-w-[1040px] mx-auto px-6 -mt-6 relative sm:mt-0">
       {/* Left: Text Content */}
       <div className="w-full md:w-1/2 flex flex-col">
         <motion.h1
