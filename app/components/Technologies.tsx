@@ -1,7 +1,12 @@
 // app/components/Technologies.tsx
 "use client";
 import React from "react";
+import { AiOutlineApi } from "react-icons/ai";
+import { BiLogoAws } from "react-icons/bi";
 import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { FaDatabase, FaNodeJs } from "react-icons/fa";
+import { RiNextjsFill, RiVercelLine } from "react-icons/ri";
+import { SiPrisma } from "react-icons/si";
 
 const Technologies = () => (
   <section id="tech" className="w-full max-w-[1040px] mx-auto px-6 py-10">
@@ -26,10 +31,13 @@ const Technologies = () => (
         </div>
         <div>
           <h4 className="text-white text-2xl font-semibold mb-2">Front-End</h4>
-          <p className="text-white/75 text-base">
-            Experience with <br />
-            React.js
-          </p>
+          <div className="flex flex-col gap-2 text-white/75 text-base">
+         
+         <span className="flex items-center gap-2"> <DiReact className="text-purple-500 text-2xl" /> ReactJs</span>
+         <span className="flex items-center gap-2"> <RiNextjsFill className="text-purple-500 text-2xl"  /> NextJs</span>
+         <span className="flex items-center gap-2"> <AiOutlineApi className="text-purple-500 text-2xl"  /> API</span>
+        
+        </div>
         </div>
       </li>
 
@@ -40,10 +48,13 @@ const Technologies = () => (
         </div>
         <div>
           <h4 className="text-white text-2xl font-semibold mb-2">Back-End</h4>
-          <p className="text-white/75 text-base">
-            Experience with Node, <br />
-            Flask, and Databases
-          </p>
+          <div className="flex flex-col gap-2 text-white/75 text-base">
+         
+         <span className="flex items-center gap-2"> <FaNodeJs className="text-purple-500 text-2xl" /> NodeJs</span>
+         <span className="flex items-center gap-2"> <SiPrisma className="text-purple-500 text-2xl"  /> Prisma</span>
+         <span className="flex items-center gap-2"> <FaDatabase className="text-purple-500 text-2xl"  /> Databases</span>
+        
+        </div>
         </div>
       </li>
 
@@ -53,11 +64,14 @@ const Technologies = () => (
           <DiZend size="3rem" />
         </div>
         <div>
-          <h4 className="text-white text-2xl font-semibold mb-2">UI/UX</h4>
-          <p className="text-white/75 text-base">
-            Experience with tools like <br />
-            Figma & Affinity Designer
-          </p>
+          <h4 className="text-white text-2xl font-semibold mb-2">Deployment</h4>
+          <div className="flex flex-col gap-2 text-white/75 text-base">
+         
+           <span className="flex items-center gap-2"> <DiFirebase className="text-purple-500 text-2xl" /> Firebase</span>
+           <span className="flex items-center gap-2"> <BiLogoAws className="text-purple-500 text-2xl"  /> AWS</span>
+           <span className="flex items-center gap-2"> <RiVercelLine className="text-purple-500 text-2xl"  /> VERCEL</span>
+          
+          </div>
         </div>
       </li>
     </ul>

@@ -9,7 +9,7 @@ export default function Home() {
     <div className="flex flex-col gap-10">
       <Hero />
 
-      <AnimatedSection direction="up" delay={0.5}>
+      <AnimatedSection direction="up" delay={0.2}>
         <Projects />
       </AnimatedSection>
 

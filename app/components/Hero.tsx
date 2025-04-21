@@ -10,7 +10,7 @@ type HeroProps = {
 
 const Hero = ({ handleClick }: HeroProps) => {
   return (
-    <section className="flex flex-col md:flex-row justify-between items-center w-full max-w-[1040px] mx-auto px-6 pt-4 relative">
+    <section className="flex flex-col md:flex-row justify-between items-center w-full max-w-[1040px] mx-auto px-6 -mt-6 relative">
       {/* Left: Text Content */}
       <div className="w-full md:w-1/2 flex flex-col">
         <motion.h1
@@ -20,7 +20,7 @@ const Hero = ({ handleClick }: HeroProps) => {
           className="text-[65px] font-extrabold leading-[72px] bg-gradient-to-r from-cyan-400 via-white to-purple-500 bg-clip-text text-transparent mb-4 md:text-[56px] md:leading-[56px] sm:text-[28px] sm:leading-[32px] sm:pt-4"
         >
           <small className="text-base block mb-2">Hello there,</small>
-          I’M a MERN Stack <br /> and PHP Developer
+          I Transform Ideas into Digital Experiences
         </motion.h1>
 
         <motion.p
@@ -29,7 +29,8 @@ const Hero = ({ handleClick }: HeroProps) => {
           transition={{ duration: 0.7, delay: 0.3 }}
           className="max-w-[800px] text-[24px] font-light leading-[40px] text-white/70 pb-14 sm:text-[16px] sm:leading-[24px]"
         >
-          I’M a Versatile full-stack developer experienced with PHP, MERN, Dart/Flutter, Python, R, and databases (SQL, PostgreSQL, MongoDB). Explore my projects:
+        As a full-stack developer specializing in MERN & PHP, I utilize a broad skillset <b className="text-cyan-400 text-2xl font-semibold">(Flutter, Python, Databases and Nextjs)
+          </b>  to build performant and scalable applications. Let's discuss your project.
           <FiCornerRightDown className="inline-block ml-2" />
         </motion.p>
         <button
